@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Services - Work Dekho</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f2f4f8;
+    }
+
+    header {
+      background-color: #2e8bff;
+      padding: 15px 30px;
+      color: white;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+    }
+
+    .hero {
+      background-color: #fff;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 36px;
+      color: #2e8bff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #666;
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .cta-button {
+      padding: 12px 24px;
+      background-color: #2e8bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 16px;
+      transition: background 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background-color: #1c6ed1;
+    }
+
+    .service-section {
+      padding: 40px 20px;
+      background-color: #f9f9f9;
+    }
+
+    .service-section h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 30px;
+    }
+
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .service-card {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .service-card h3 {
+      color: #2e8bff;
+      margin-bottom: 10px;
+    }
+
+    .service-card p {
+      color: #555;
+      font-size: 15px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #2e8bff;
+      color: white;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Work Dekho</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="dashboard.php">Dashboard</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Explore Freelance Services</h1>
+    <p>Discover a wide range of services offered by talented freelancers.</p>
+    <a href="postservice.php" class="cta-button">Post a Service</a>
+  </section>
+
+  <section class="service-section">
+    <h2>Top Categories</h2>
+    <div class="service-grid">
+      <div class="service-card">
+        <h3><i class="fas fa-code"></i> Web Development</h3>
+        <p>Design and build responsive websites and web applications.</p>
+      </div>
+      <div class="service-card">
+        <h3><i class="fas fa-paint-brush"></i> Graphic Design</h3>
+        <p>Create stunning visuals, logos, flyers, and brand designs.</p>
+      </div>
+      <div class="service-card">
+        <h3><i class="fas fa-chart-line"></i> Digital Marketing</h3>
+        <p>Improve your online reach with SEO, ads, and content marketing.</p>
+      </div>
+      <div class="service-card">
+        <h3><i class="fas fa-pen-nib"></i> Content Writing</h3>
+        <p>Engaging articles, blog posts, product descriptions, and more.</p>
+      </div>
+      <div class="service-card">
+        <h3><i class="fas fa-video"></i> Video Editing</h3>
+        <p>Edit professional videos for YouTube, business, or personal use.</p>
+      </div>
+      <div class="service-card">
+        <h3><i class="fas fa-mobile-alt"></i> App Development</h3>
+        <p>Create mobile apps for Android & iOS tailored to your needs.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Work Dekho. All rights reserved. <br> Crafted with 💻 by Bhaskar</p>
+  </footer>
+</body>
+</html>
